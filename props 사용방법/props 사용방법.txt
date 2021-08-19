@@ -1,3 +1,4 @@
 * props
 - 하나의 컴포넌트로 다른 출력을 보여줄 수 있음
 - 코드의 재사용성 †
+- {this.props.속성} ex) {this.props.title}
