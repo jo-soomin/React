@@ -1,0 +1,7 @@
+React의 event 명령어 
+- 대문자로 사용해야한다.(React 규칙)
+- debugger; : 이 명령어를 입력하면 브라우저의 개발자 모드에서 코드의 해당 위치에 멈춘다.
+ex) onClick={function(e){
+                                                     e.preventDefault(); 
+                                    }}
+- e.preventDefault(); : 해당 태그의 가장 기본 기능을 막아준다.

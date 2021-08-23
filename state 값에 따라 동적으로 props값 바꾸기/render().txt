@@ -1,0 +1,2 @@
+render : React에서는 props의 값이나 state의 값이 바뀌면 해당되는 컴포넌트의 render() 함수가 호출된다.
+-> 즉, 화면이 다시 그려진다.
