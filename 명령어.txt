@@ -16,3 +16,4 @@
 - 처음 컴포넌트가 생성될 때 render 함수보다 먼저 constructor 함수가 실행되면서 state값이 정해지지만
 동적으로 state의 값을 바꿀 경우에는 setState({ }); 함수를 써야 React가 state 값이 변경된 것을 인식하고
 render() 함수를 재호출한다.
+10. onChangePage이벤트 : 해당 컴포넌트의 페이지가 변경될 때 이벤트에 설치된 함수 호출
