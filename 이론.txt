@@ -22,5 +22,8 @@
 -> 즉, 화면이 다시 그려진다.
 12) render 함수 안에서 this는 해당 컴포넌트를 가리킴,
 function 안에서의 this는 None 따라서 bind로 this(컴포넌트)를 넣어준다.
-
+13) props : Read Only
+     state : 값 변경 가능
+- 상위 컴포넌트에서 하위 컴포넌트로 값을 전달하기 위해서는 props를 사용,
+하위 컴포넌트에서 상위 컴포넌트에 명령을 주기 위해서는 이벤트를 만들어서 setState를 사용하여 state 값을 변경한다.
 
