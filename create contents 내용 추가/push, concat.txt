@@ -1,0 +1,12 @@
+push : 기존 배열의 값이 변하는 것.
+
+ex ) this.state.contents.push(
+	{id:this.max_content_id, title: _title, desc: _desc}
+       );      -> 기존 contents 배열에 인덱스 1개가 추가된다.
+
+concat : 기존 배열의 구성은 그대로고, 새로운 배열이 생성된다.
+
+ex) var result = this.state.contents.concat(
+          {id:this.max_content_id, title: _title, desc: _desc}
+      ); -> 기존 contents 배열의 구성은 변함이 없고, 
+             result 배열에 contents 배열의 기존 값과 새로 추가된 값이 포함되어 생성된다.
