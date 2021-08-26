@@ -25,5 +25,5 @@ render() 함수를 재호출한다.
 	 }
 	 return true; // 바뀐 값이 있다면 render 함수 탄다.
             }
-             render(){ }
+     render(){ }
 
