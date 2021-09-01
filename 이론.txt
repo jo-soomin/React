@@ -26,4 +26,12 @@ function 안에서의 this는 None 따라서 bind로 this(컴포넌트)를 넣�
      state : 값 변경 가능
 - 상위 컴포넌트에서 하위 컴포넌트로 값을 전달하기 위해서는 props를 사용,
 하위 컴포넌트에서 상위 컴포넌트에 명령을 주기 위해서는 이벤트를 만들어서 setState를 사용하여 state 값을 변경한다.
+14) React Router: url에 따라서 컴포넌트 실행 가능하게 해주는 플러그인
+15) npm run eject, create react app eject : react app의 개발환경 설정 가능. 단, 한번 eject하면 다시 돌아갈 수 없다.
+16) redux : 중앙 데이터 저장소를 만들고 모든 컴포넌트를 중앙 저장소와 연결시킨다.
+저장소의 데이터가 변경되면 해당 데이터와 관련된 모든 컴포넌트가 영향을 받아 변경된다.
+17) react server side rendering : 서버쪽에서 웹 페이지를 완성한 후에 클라이언트로 완성된 HTML을 전송하는 것으로 
+애플리케이션을 구동할 수 있다. 
+장점 : 초기 구동시간을 단축할 수 있다.
+18) react native : react를 활용하여 ios, android 같은 모든 플랫폼에서 실행가능한 APP을 만들 수 있다.
 
