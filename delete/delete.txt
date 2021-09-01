@@ -1,0 +1,2 @@
+배열.splice(기준, 몇 개 지울 것인지);
+ex) _contents.splice(i, 1);
